@@ -44,3 +44,7 @@ npm run build
 ```
 
 빌드된 결과물은 `npm run preview` 명령어로 미리 확인할 수 있습니다.
+
+## 스크린샷
+
+![스크린샷](screenshot.png)
