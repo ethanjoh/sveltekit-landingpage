@@ -1,5 +1,6 @@
 <script>
   import { productData } from '../data/productData.js';
+  let { showSpecs = false } = $props();
 </script>
 
 <section id="product" class="scroll-mt-16 py-24 bg-white">
@@ -40,6 +41,7 @@
     </div>
     
     <!-- Technical Specifications -->
+    {#if showSpecs}
     <div class="mt-24 border-t border-gray-200 pt-16">
       <h3 class="text-3xl font-bold text-gray-900 mb-10 text-center">상세 스펙</h3>
       <div class="max-w-3xl mx-auto bg-gray-50 rounded-2xl overflow-hidden shadow-sm border border-gray-100">
@@ -53,6 +55,7 @@
         </dl>
       </div>
     </div>
+    {/if}
     
   </div>
 </section>

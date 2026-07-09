@@ -6,4 +6,4 @@
   <title>Aura Pro - 제품</title>
 </svelte:head>
 
-<Product />
+<Product showSpecs={true} />
